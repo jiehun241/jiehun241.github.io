@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=yes"/>
+    <title>东莞市浩哲五金制品有限公司</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <style type="text/css">
+    	*:focus {
+    		outline: none !important;
+    	}
+		.navbar-brand {
+			min-width:100px;
+			text-align: center; 
+		}
+		.carousel-caption label {
+			width: 20%;
+		}
+		.carousel-caption span {
+			font-weight: bold;
+			font-size: 20px; 
+		}
+		.main-page p {
+			text-indent: 2em;
+		}
+		.main-page p span {
+			font-weight: bold;
+			font-size: 16px; 
+		}
+		.footer {
+			background-color: #ddd;
+			height: 250px;
+		}
+		.transparent_class {   
+			filter:alpha(opacity=80);   
+			-moz-opacity:0.8;   
+			-khtml-opacity: 0.8;   
+			opacity: 0.8;   
+		}
+		table {
+			border: 1px solid #ccc;
+			width: 100%;
+			margin:0;
+			padding:0;
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+
+		table tr {
+			border: 1px solid #ddd;
+			padding: 5px;
+		}
+
+		table th, table td {
+			padding: 10px;
+			text-align: center;
+		}
+
+		table th {
+			text-transform: uppercase;
+			font-size: 14px;
+			letter-spacing: 1px;
+		}
+
+		table tr:hover {
+			background-color: #f1f1f1;
+		}
+
+		#tips2 {
+			display: none;
+		}
+
+		#tips1 {
+			border-left: 1px solid #ccc;
+		}
+
+		.page-content h4 {
+			float: right;
+			margin-right: 2em;
+		}
+
+		.mi-slider ul li {
+			overflow: hidden;
+		}
+
+		.mi-slider ul li h4 {
+			position: relative;
+			z-index: 10;
+		}
+
+		.mi-slider ul li img:hover {
+			/* hover放大 */
+			vertical-align: middle;
+		    -webkit-transform: scale(2);
+		    -ms-transform: scale(2);
+		    transform: scale(2);
+		    zoom: 2;
+		}
+
+		@media screen and (max-width: 600px) {
+
+		table {
+			border: 0;
+		}
+
+		table thead {
+			display: none;
+		}
+
+		table tr {
+			margin-bottom: 10px;
+			display: block;
+			border-bottom: 2px solid #ddd;
+		}
+
+		table td {
+			display: block;
+			text-align: right;
+			font-size: 13px;
+			border-bottom: 1px dotted #ccc;
+		}
+
+		table td:last-child {
+			border-bottom: 0;
+		}
+
+		table td:before {
+			content: attr(data-label);
+			float: left;
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+
+		#tips1 {
+			border-left: none;
+		}
+		
+		#tips2 {
+			display: block;
+		}
+  		}
+    </style>
+  </head>
+  <body>
+	<div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-default navbar-static-top transparent_class">
+          <div class="container">
+            <div class="navbar-header">
+              <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" id="btn-navbar" type="button">
+                <span class="sr-only">东莞市浩哲五金制品有限公司</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="javascript:;" class="navbar-brand">浩哲</a>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="javascript:;" class="nav-index">首页</a></li>
+                <li><a href="javascript:;" id="nav-product">产品中心</a></li>
+                <li><a href="javascript:;" id="nav-device">生产设备</a></li>
+                <!-- <li><a href="javascript:;">新闻中心</a></li> -->
+                <li><a href="javascript:;" id="nav-about">关于浩哲</a></li>
+                <li class="dropdown">
+                  <a aria-expanded="false" aria-haspopup="true" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">联系我们<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="tel:0755-33238351">电话：0755-33238351</a></li>
+                    <li><a href="tel:0755-33238353">传真：0755-33238353</a></li>
+                    <li><a href="mailto:yuying_001@126.com">Email：yuying_001@126.com</a></li>
+                    <li class="divider" role="separator"></li>
+                    <li class="dropdown-header">地址</li>
+                    <li><a href="http://map.baidu.com/?newmap=1&ie=utf-8&s=s%26wd%3D%E4%B8%9C%E8%8E%9E%E5%B8%82%E5%A1%98%E5%8E%A6%E9%95%87%E9%BE%99%E8%83%8C%E5%B2%AD%E7%A4%BE%E5%8C%BA%E9%BE%99%E5%85%B4%E8%B7%AF%E9%BE%99%E5%85%B4%E5%B7%A5%E4%B8%9A%E5%9B%AD" target="_blank">东莞市塘厦镇龙背岭社区龙兴路2号A1栋3楼</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+    <div data-ride="carousel" class="carousel slide" id="myCarousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li class="" data-slide-to="0" data-target="#myCarousel"></li>
+        <li data-slide-to="1" data-target="#myCarousel" class="active"></li>
+        <li data-slide-to="2" data-target="#myCarousel" class=""></li>
+      </ol>
+      <div role="listbox" class="carousel-inner">
+        <div class="item" style="background-color: #3498db;">
+          <!-- <img alt="First slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" class="first-slide"> -->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>东莞市浩哲五金制品有限公司</h1>
+              <p><label>诚实</label><label>务实</label><label>开拓</label><label>卓越</label></p>
+            </div>
+          </div>
+        </div>
+        <div class="item active" style="background-color: #9b59b6;">
+          <!-- <img alt="Second slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" class="second-slide"> -->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>东莞市浩哲五金制品有限公司</h1>
+              <h3><label>科学管理</label><label>品质保证</label></h3>
+              <p><span>产品类型：</span>短轴、长轴、铆钉、支柱、标准件、接插件等。</p>
+              <p><span>适用领域：</span>办公用品（如复印机、打印机、手提电脑、收银机等）通讯设备（如手机、天线等）、医疗仪器。</p>
+            </div>
+          </div>
+        </div>
+        <div class="item" style="background-color: #1abc9c;">
+          <!-- <img alt="Third slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" class="third-slide"> -->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>东莞市浩哲五金制品有限公司</h1>
+              <p><label>一流技术</label><label>一流产品</label></p>
+              <p><a role="button" href="javascript:;" class="btn btn-lg btn-primary" id="more">更多产品</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a data-slide="prev" role="button" href="#myCarousel" class="left carousel-control">
+        <span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a data-slide="next" role="button" href="#myCarousel" class="right carousel-control">
+        <span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class="container main-page">
+    	<div id="product" style="height: auto;">	
+			<hgroup>
+	    		<h1>丰富的产品类型</h1>
+	    		<h3>我们提供各种高精密的优质产品</h3>
+			</hgroup>
+			<article class="page-content">
+				<div id="mi-slider" class="mi-slider">
+					<ul>
+						<li><a href="javascript:;"><img src="images/1-1.jpg" alt="充电设备端子"><h4>充电设备端子 -1</h4></a></li>
+						<li><a href="javascript:;"><img src="images/1-2.jpg" alt="充电设备端子"><h4>充电设备端子 -2</h4></a></li>
+						<li><a href="javascript:;"><img src="images/1-3.jpg" alt="充电设备端子"><h4>充电设备端子 -3</h4></a></li>
+						<li><a href="javascript:;"><img src="images/1-4.jpg" alt="充电设备端子"><h4>充电设备端子 -4</h4></a></li>
+						<li><a href="javascript:;"><img src="images/1-5.jpg" alt="充电设备端子"><h4>充电设备端子 -5</h4></a></li>
+						<li><a href="javascript:;"><img src="images/1-6.jpg" alt="充电设备端子"><h4>充电设备端子 -6</h4></a></li>
+						<li><a href="javascript:;"><img src="images/1-7.jpg" alt="充电设备端子"><h4>充电设备端子 -7</h4></a></li>
+					</ul>
+					<ul>
+						<li><a href="javascript:;"><img src="images/2-1.jpg" alt="传动齿轮"><h4>传动齿轮 -1</h4></a></li>
+						<li><a href="javascript:;"><img src="images/2-2.jpg" alt="传动齿轮"><h4>传动齿轮 -2</h4></a></li>
+						<li><a href="javascript:;"><img src="images/2-3.jpg" alt="传动齿轮"><h4>传动齿轮 -3</h4></a></li>
+					</ul>
+					<ul>
+						<li><a href="javascript:;"><img src="images/3-1.jpg" alt="传动类轴承"><h4>传动类轴承 -1</h4></a></li>
+						<li><a href="javascript:;"><img src="images/3-2.jpg" alt="传动类轴承"><h4>传动类轴承 -2</h4></a></li>
+						<li><a href="javascript:;"><img src="images/3-3.jpg" alt="传动类轴承"><h4>传动类轴承 -3</h4></a></li>
+						<li><a href="javascript:;"><img src="images/3-4.jpg" alt="传动类轴承"><h4>传动类轴承 -4</h4></a></li>
+					</ul>
+					<ul>
+						<li><a href="javascript:;"><img src="images/4-1.jpg" alt="非标螺母"><h4>非标螺母 -1</h4></a></li>
+						<li><a href="javascript:;"><img src="images/4-2.jpg" alt="非标螺母"><h4>非标螺母 -2</h4></a></li>
+						<li><a href="javascript:;"><img src="images/4-3.jpg" alt="非标螺母"><h4>非标螺母 -3</h4></a></li>
+						<li><a href="javascript:;"><img src="images/4-4.jpg" alt="非标螺母"><h4>非标螺母 -4</h4></a></li>
+						<li><a href="javascript:;"><img src="images/4-5.jpg" alt="非标螺母"><h4>非标螺母 -5</h4></a></li>
+						<li><a href="javascript:;"><img src="images/4-6.jpg" alt="非标螺母"><h4>非标螺母 -6</h4></a></li>
+						<li><a href="javascript:;"><img src="images/4-7.jpg" alt="非标螺母"><h4>非标螺母 -7</h4></a></li>
+						<li><a href="javascript:;"><img src="images/4-8.jpg" alt="非标螺母"><h4>非标螺母 -8</h4></a></li>
+						<li><a href="javascript:;"><img src="images/4-9.jpg" alt="非标螺母"><h4>非标螺母 -9</h4></a></li>
+						<li><a href="javascript:;"><img src="images/4-10.jpg" alt="非标螺母"><h4>非标螺母 -10</h4></a></li>
+					</ul>
+					<nav>
+						<a href="javascript:;">充电设备端子</a>
+						<a href="javascript:;">传动齿轮</a>
+						<a href="javascript:;">传动类轴承</a>
+						<a href="javascript:;">非标螺母</a>
+					</nav>
+				</div>
+				<hr class="featurette-divider">
+				<div id="mi2-slider" class="mi-slider">
+					<ul>
+						<li><a href="javascript:;"><img src="images/5-1.jpg" alt="紧固件"><h4>紧固件 -1</h4></a></li>
+						<li><a href="javascript:;"><img src="images/5-2.jpg" alt="紧固件"><h4>紧固件 -2</h4></a></li>
+						<li><a href="javascript:;"><img src="images/5-3.jpg" alt="紧固件"><h4>紧固件 -3</h4></a></li>
+						<li><a href="javascript:;"><img src="images/5-4.jpg" alt="紧固件"><h4>紧固件 -4</h4></a></li>
+						<li><a href="javascript:;"><img src="images/5-3.jpg" alt="紧固件"><h4>紧固件 -5</h4></a></li>
+						<li><a href="javascript:;"><img src="images/5-4.jpg" alt="紧固件"><h4>紧固件 -6</h4></a></li>
+					</ul>
+					<ul>
+						<li><a href="javascript:;"><img src="images/6-1.jpg" alt="水管螺母"><h4>水管螺母 -1</h4></a></li>
+						<li><a href="javascript:;"><img src="images/6-2.jpg" alt="水管螺母"><h4>水管螺母 -2</h4></a></li>
+						<li><a href="javascript:;"><img src="images/6-3.jpg" alt="水管螺母"><h4>水管螺母 -3</h4></a></li>
+					</ul>
+					<ul>
+						<li><a href="javascript:;"><img src="images/7-1.jpg" alt="铆钉"><h4>铆钉 -1</h4></a></li>
+						<li><a href="javascript:;"><img src="images/7-2.jpg" alt="铆钉"><h4>铆钉 -2</h4></a></li>
+						<li><a href="javascript:;"><img src="images/7-3.jpg" alt="铆钉"><h4>铆钉 -3</h4></a></li>
+						<li><a href="javascript:;"><img src="images/7-4.jpg" alt="铆钉"><h4>铆钉 -4</h4></a></li>
+						<li><a href="javascript:;"><img src="images/7-5.jpg" alt="铆钉"><h4>铆钉 -5</h4></a></li>
+						<li><a href="javascript:;"><img src="images/7-6.jpg" alt="铆钉"><h4>铆钉 -6</h4></a></li>
+						<li><a href="javascript:;"><img src="images/7-7.jpg" alt="铆钉"><h4>铆钉 -7</h4></a></li>
+						<li><a href="javascript:;"><img src="images/7-8.jpg" alt="铆钉"><h4>铆钉 -8</h4></a></li>
+					</ul>
+					<ul>
+						<li><a href="javascript:;"><img src="images/8-1.jpg" alt="自行车配件"><h4>自行车配件 -1</h4></a></li>
+						<li><a href="javascript:;"><img src="images/8-2.jpg" alt="自行车配件"><h4>自行车配件 -2</h4></a></li>
+						<li><a href="javascript:;"><img src="images/8-3.jpg" alt="自行车配件"><h4>自行车配件 -3</h4></a></li>
+						<li><a href="javascript:;"><img src="images/8-4.jpg" alt="自行车配件"><h4>自行车配件 -4</h4></a></li>
+						<li><a href="javascript:;"><img src="images/8-5.jpg" alt="自行车配件"><h4>自行车配件 -5</h4></a></li>
+					</ul>
+					<ul>
+						<li><a href="javascript:;"><img src="images/9-1.jpg" alt="其他"><h4>其他 -1</h4></a></li>
+						<li><a href="javascript:;"><img src="images/9-2.jpg" alt="其他"><h4>其他 -2</h4></a></li>
+						<li><a href="javascript:;"><img src="images/9-3.jpg" alt="其他"><h4>其他 -3</h4></a></li>
+						<li><a href="javascript:;"><img src="images/9-4.jpg" alt="其他"><h4>传动轴（轴类）</h4></a></li>
+						<li><a href="javascript:;"><img src="images/9-5.jpg" alt="其他"><h4>连接器端子 -1</h4></a></li>
+						<li><a href="javascript:;"><img src="images/9-6.jpg" alt="其他"><h4>连接器端子 -2</h4></a></li>
+						<li><a href="javascript:;"><img src="images/9-7.jpg" alt="其他"><h4>支架配件（轴套）-1</h4></a></li>
+						<li><a href="javascript:;"><img src="images/9-8.jpg" alt="其他"><h4>支架配件（轴套）-2</h4></a></li>
+					</ul>
+					<nav>
+						<a href="javascript:;">紧固件</a>
+						<a href="javascript:;">水管螺母</a>
+						<a href="javascript:;">铆钉</a>
+						<a href="javascript:;">自行车配件</a>
+						<a href="javascript:;">其他</a>
+					</nav>
+				</div>
+			</article>
+		</div>
+		<hr class="featurette-divider">
+    	<dir id="device" style="height: auto;">
+	    	<hgroup>
+	    		<h1>先进的生产设备</h1>
+	    		<h3>高精密优质产品，需要先进生产设备作保障。我们的目标是让每一个客户满意</h3>
+			</hgroup>
+	    	<article class="page-content">
+	    		<h4>主要机械设备一览表</h4>
+	    		<section>
+	    			<table>
+	    				<thead>
+	    					<tr>
+		    					<th>机械名称</th>
+		    					<th>现有数量（台）</th>
+		    					<th>产地</th>
+		    					<th>计划纳入（台）</th>
+		    				</tr>
+	    				</thead>
+	    				<tbody>
+	    					<tr>
+	    						<td data-label="机械名称">自动车床A</td>
+	    						<td data-label="现有数量（台）">22</td>
+	    						<td data-label="产地">台湾</td>
+	    						<td data-label="计划纳入（台）">10</td>
+	    					</tr>
+	    					<tr>
+	    						<td data-label="机械名称">自动车床B</td>
+	    						<td data-label="现有数量（台）">2</td>
+	    						<td data-label="产地">台湾</td>
+	    						<td data-label="计划纳入（台）">5</td>
+	    					</tr>
+	    					<tr>
+	    						<td data-label="机械名称">自动车床C</td>
+	    						<td data-label="现有数量（台）">2</td>
+	    						<td data-label="产地">日本</td>
+	    						<td data-label="计划纳入（台）">4</td>
+	    					</tr>
+	    					<tr>
+	    						<td data-label="机械名称">自动车床D</td>
+	    						<td data-label="现有数量（台）">2</td>
+	    						<td data-label="产地">日本</td>
+	    						<td data-label="计划纳入（台）">4</td>
+	    					</tr>
+	    					<tr>
+	    						<td data-label="机械名称">CNC车床[U111]</td>
+	    						<td data-label="现有数量（台）">0</td>
+	    						<td data-label="产地">日本</td>
+	    						<td data-label="计划纳入（台）">6</td>
+	    					</tr>
+	    				</tbody>
+	    			</table>
+	    		</section>
+	    	</article>
+	    </dir>
+	    <hr class="featurette-divider">
+	    <dir style="height: auto;">
+	    	<hgroup>
+	    		<h1>完整的二次加工设备</h1>
+	    		<h3>对于特殊的产品，我们具备完整的二次加工设备</h3>
+			</hgroup>
+	    	<article class="page-content">
+	    		<h4>辅助设备一览表</h4>
+	    		<section>
+	    			<table>
+	    				<thead>
+	    					<tr>
+		    					<th>机械名称</th>
+		    					<th>现有数量（台）</th>
+		    					<th>计划纳入（台）</th>
+		    				</tr>
+	    				</thead>
+	    				<tbody>
+	    					<tr>
+	    						<td data-label="机械名称">无心磨床</td>
+	    						<td data-label="现有数量（台）">1</td>
+	    						<td data-label="计划纳入（台）">2</td>
+	    					</tr>
+	    					<tr>
+	    						<td data-label="机械名称">自动铣床</td>
+	    						<td data-label="现有数量（台）">1</td>
+	    						<td data-label="计划纳入（台）">5</td>
+	    					</tr>
+	    					<tr>
+	    						<td data-label="机械名称">卧式铣床</td>
+	    						<td data-label="现有数量（台）">6</td>
+	    						<td data-label="计划纳入（台）">6</td>
+	    					</tr>
+	    					<tr>
+	    						<td data-label="机械名称">立式铣床</td>
+	    						<td data-label="现有数量（台）">3</td>
+	    						<td data-label="计划纳入（台）">13</td>
+	    					</tr>
+	    					<tr>
+	    						<td data-label="机械名称">普通车床</td>
+	    						<td data-label="现有数量（台）">1</td>
+	    						<td data-label="计划纳入（台）">2</td>
+	    					</tr>
+	    					<tr>
+	    						<td data-label="机械名称">震动研磨机</td>
+	    						<td data-label="现有数量（台）">4</td>
+	    						<td data-label="计划纳入（台）">4</td>
+	    					</tr>
+	    					<tr>
+	    						<td data-label="机械名称">磁力研磨机</td>
+	    						<td data-label="现有数量（台）">2</td>
+	    						<td data-label="计划纳入（台）">3</td>
+	    					</tr>
+	    					<tr>
+	    						<td data-label="机械名称">超声清洗机</td>
+	    						<td data-label="现有数量（台）">2</td>
+	    						<td data-label="计划纳入（台）">2</td>
+	    					</tr>
+	    					<tr>
+	    						<td data-label="机械名称">滚花机</td>
+	    						<td data-label="现有数量（台）">2</td>
+	    						<td data-label="计划纳入（台）">7</td>
+	    					</tr>
+	    					<tr>
+	    						<td data-label="机械名称">攻丝机</td>
+	    						<td data-label="现有数量（台）">2</td>
+	    						<td data-label="计划纳入（台）">22</td>
+	    					</tr>
+	    				</tbody>
+	    			</table>
+	    		</section>
+	    	</article>
+	    </dir>
+	    <hr class="featurette-divider">
+	    <dir style="height: auto;">
+	    	<hgroup>
+	    		<h1>先进的检测器具</h1>
+	    		<h3>质量就是生命。先进的检测器具，进一步确保产品质量</h3>
+			</hgroup>
+	    	<article class="page-content">
+	    		<h4>主要检测仪器一览表</h4>
+	    		<section>
+	    			<table>
+	    				<thead>
+	    					<tr>
+		    					<th>仪器名称</th>
+		    					<th>现有数量（台）</th>
+		    					<th>计划纳入（台）</th>
+		    				</tr>
+	    				</thead>
+	    				<tbody>
+	    					<tr>
+	    						<td data-label="仪器名称">投影机</td>
+	    						<td data-label="现有数量（台）">2</td>
+	    						<td data-label="计划纳入（台）">3</td>
+	    					</tr>
+	    					<tr>
+	    						<td data-label="仪器名称">万能显微镜</td>
+	    						<td data-label="现有数量（台）">2</td>
+	    						<td data-label="计划纳入（台）">3</td>
+	    					</tr>
+	    					<tr>
+	    						<td data-label="仪器名称">标准量块</td>
+	    						<td data-label="现有数量（台）">1</td>
+	    						<td data-label="计划纳入（台）">1</td>
+	    					</tr>
+	    					<tr>
+	    						<td data-label="仪器名称">盐雾试验机</td>
+	    						<td data-label="现有数量（台）">1</td>
+	    						<td data-label="计划纳入（台）">1</td>
+	    					</tr>
+	    					<tr>
+	    						<td data-label="仪器名称">表面粗糙度仪</td>
+	    						<td data-label="现有数量（台）">1</td>
+	    						<td data-label="计划纳入（台）">2</td>
+	    					</tr>
+	    					<tr>
+	    						<td data-label="仪器名称">长度测量仪</td>
+	    						<td data-label="现有数量（台）">1</td>
+	    						<td data-label="计划纳入（台）">1</td>
+	    					</tr>
+	    					<tr>
+	    						<td data-label="仪器名称">数显千分尺</td>
+	    						<td data-label="现有数量（把）">4</td>
+	    						<td data-label="计划纳入（把）">10</td>
+	    					</tr>
+	    					<tr>
+	    						<td data-label="仪器名称">硬度计</td>
+	    						<td data-label="现有数量（台）">1</td>
+	    						<td data-label="计划纳入（台）">1</td>
+	    					</tr>
+	    				</tbody>
+	    			</table>
+	    		</section>
+	    	</article>
+	    	<article class="page-content">
+	    		<h4>一般检测仪器一览表</h4>
+	    		<section>
+	    			<table>
+	    				<thead>
+	    					<tr>
+		    					<th colspan="5">仪器名称</th>
+		    				</tr>
+	    				</thead>
+	    				<tbody>
+	    					<tr>
+	    						<td data-label="仪器名称">普通千分尺</td>
+	    						<td data-label="仪器名称">刀口千分尺</td>
+	    						<td data-label="仪器名称">柱式千分尺</td>
+	    						<td data-label="仪器名称">柱式百分尺</td>
+	    						<td data-label="备注" rowspan="2" id="tips1">注：一般检测仪器数量根据生产需求做整理</td>
+	    					</tr>
+	    					<tr>
+	    						<td data-label="仪器名称">针规</td>
+	    						<td data-label="仪器名称">螺纹规</td>
+	    						<td data-label="仪器名称">刻度卡尺</td>
+	    						<td data-label="仪器名称">高度尺</td>
+	    						<td data-label="备注" rowspan="2" id="tips2">注：一般检测仪器数量根据生产需求做整理</td>
+	    					</tr>
+	    				</tbody>
+	    			</table>
+	    		</section>
+	    	</article>
+	    </dir>
+	    <hr class="featurette-divider">
+	    <dir name="about" id="about" style="min-height: 280px;">
+	    	<h1>关于我们</h1>
+	    	<p><span>东莞市浩哲五金制品有限公司，</span>始创于2006年7月。采用最先进的CNC数控车床，自动车床及各种先进的检测仪器，专业精密的加工技术生产各种高精密金属轴零件。亦可按客户要求进行车、铣、钻、磨和抛光等二次加工及各种表面处理。</p>
+	    	<p>工厂自开创时，便导入ISO管理模式及先进的专业生产技术进行严格的高品质生产。经过全体员工的不懈努力，现拥有自动车床及二次加工设备等50多台。并配有投影仪、显微镜、数显千分尺、千分尺、各种量规具等精密检测仪器。已形成 具有集设计、开发、生产、销售于一体的具有一定规模及技术力量的生产基地。拥有一支专业的技术队伍。一直以来，以品种齐全、品质优良、交货快捷、价格公道、服务周全赢得广大客户的信赖与支持。</p>
+	    	<p><span>“你的满意，便是我们的追求。”</span>本厂将不断引进高、精、尖设备及技术，不断提高全体员工的技术水平，在风云激荡的市场竞争中不断开拓进取，精益求精；力争以高度责任心的先进管理方式，以及专业的生产技术，为客户提供更优质完善的服务。</p>
+	    	<p>您的支持与关怀，便是对我们最大的鼓励。瑜英全体同仁将一如既往，不断进取，创造美好明天。</p>
+	    </dir>
+	    <hr class="featurette-divider">
+	    <footer>
+	    	<p class="pull-right"><a href="javascript:void(0);" class="nav-index">返回最上面</a></p>
+	    	<p>© 2012-2017 Company, Inc. · </p>
+	    </footer>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/bootstrap-hover-dropdown.min.js"></script> -->
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/jquery.catslider.js"></script>
+    <script type="text/javascript">
+    	$(function() {
+    		$('#mi-slider').catslider();
+    		$('#mi2-slider').catslider();
+
+    		$('.navbar-nav>li').each(function() {
+    			$(this).click(function() {
+    				var bDropdown = $(this).hasClass("dropdown");
+	    			var bStatus = $("#navbar").hasClass("in");
+	    			if (bStatus && !bDropdown) {
+	    				$("#navbar").collapse("toggle");
+	    			};
+    			})
+    		});
+
+    		$('#myCarousel, .main-page').click(function() {
+    			var bStatus = $("#navbar").hasClass("in");
+	    			if (bStatus) {
+	    				$("#navbar").collapse("toggle");
+	    			};
+    		});
+
+    		$('.navbar').hover(function() {
+    			$(this).toggleClass('transparent_class');
+    		});
+
+    		$(window).scroll(function() {
+    			if ($(document).scrollTop() >= 20) {
+    				$('.navbar').removeClass('navbar-static-top');
+    				$('.navbar').addClass('navbar-fixed-top');
+    			} else {
+    				$('.navbar').removeClass('navbar-fixed-top');
+    				$('.navbar').addClass('navbar-static-top');
+    			}
+    		});
+
+    		$('#nav-about').click(function() {
+    			$("html,body").animate({scrollTop: $("#about").offset().top-100}, 1500);
+    		});
+    		$('#nav-product, #more').click(function() {
+    			$("html,body").animate({scrollTop: $("#product").offset().top-80}, 1500);
+    		});
+    		$('#nav-device').click(function() {
+    			$("html,body").animate({scrollTop: $("#device").offset().top-100}, 1500);
+    		});
+
+    		$('.nav-index').click(function() {
+    			$("html,body").animate({scrollTop: 0}, 1500);
+    			$('.navbar-nav li').removeClass('active');
+    			$('.navbar-nav li:first-child').addClass('active');
+    		});
+
+    		$('.navbar-nav li').click(function() {
+    			$('.navbar-nav li').removeClass('active');
+    			$(this).addClass('active');
+    		})
+    	})
+    </script>
+  </body>
+</html>
